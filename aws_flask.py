@@ -13,4 +13,4 @@ def cricket():
 
 
 if __name__=="__main__":
-    aws_flask.run(debug=True)
+    aws_flask.run(host="0.0.0.0")
