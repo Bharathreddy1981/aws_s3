@@ -13,7 +13,7 @@ def salt():
         aws_secret_access_key=ACCESS_SECRET_KEY,
         config=Config(signature_version="s3v4")
     )
-    Q=s3.Bucket(BUCKET_NAME).put_object(Key="baba.jpg", Body=data)
+    Q=s3.Bucket(BUCKET_NAME).put_object(Key="baba12s.jpg", Body=data)
 
     print("Done")
     return {"value":Q}
